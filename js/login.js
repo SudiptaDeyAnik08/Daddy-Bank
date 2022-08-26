@@ -8,6 +8,7 @@ submit_btn.addEventListener('click',function(){
 
     if(email === 'a@gmail.com' && pass_value === '123'){
         alert("login success");
+        window.location.href = 'home.html';
     }else{
         alert("Can not login")
     }
